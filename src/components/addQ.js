@@ -44,11 +44,6 @@ class addQ extends Component{
     }))
   }
 
-  callme = () => {
-      console.log("asdfasdf");
-      
-  }
-
   render(){
     const {optionOne, optionTwo,loading} = this.state   
     const {user} = this.props 
