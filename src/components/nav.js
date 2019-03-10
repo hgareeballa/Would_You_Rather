@@ -9,7 +9,7 @@ class nav extends Component {
         return (
 
           <div align="center">
-            <h2> <span className="badge badge-primary badge-pill align-items-center">Would You Rather?</span> </h2>  
+            <h2> <span className="badge badge-primary badge-pill align-items-center">Would You Rather v1.0 ?</span> </h2>  
             {activeUser === null ? (
             <h3> <span className="badge-pill btn btn-outline-primary">
             <NavLink to="/login">Login</NavLink>
